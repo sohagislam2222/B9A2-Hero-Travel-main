@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Mulish:wght@400;500;600;700;800&display=swap');
+
+
+/* Shared style */
+
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Mulish', sans-serif;
+    max-width: 1440px;
+    margin: 100px auto;
+}
+
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    width: 94.86%;
+    margin: 50px auto;
+}
+
+/* Header section start */
+
+.nav-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+
+.nav-left-part {
+    display: flex;
+    align-items: center;
+
+}
+
+.nav-img {
+    height: 96%;
+    margin-right: 16px;
+}
+
+.nav-title {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 2.25rem;
+    font-weight: 800;
+}
+
+
+.travel {
+    color: #FF5400;
+}
+
+
+.nav-right ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 44px;
+    list-style: none;
+
+}
+
+.nav-right ul a {
+    color: var(--Dark-02, #424247);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 1.125rem;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+ul .home {
+    color: #FF5400;
+}
+
+
+.banner-container {
+    width: 100%;
+    height: 500px;
+    margin-top: 50px;
+    background: border-radius: 16px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.banner-title {
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 4rem;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.banner-description {
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+
+
+.make-travel {
+    display: inline-flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 24px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+
+}
+
+.option-text {
+    color: rgba(19, 19, 24, 0.50);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.where {
+    padding-top: 22px;
+    padding-bottom: 22px;
+    padding-left: 15px;
+    padding-right: 74px;
+    border-radius: 8px;
+    background: #FFF;
+}
+
+
+
+.when {
+    padding-top: 22px;
+    padding-bottom: 22px;
+    padding-left: 15px;
+    padding-right: 74px;
+    border-radius: 8px;
+    background: #FFF;
+}
+
+
+.select {
+    padding-top: 22px;
+    padding-bottom: 22px;
+    padding-left: 15px;
+    padding-right: 74px;
+    border-radius: 8px;
+    background: #FFF;
+}
+
+.banner-btn {
+    color: #FFF;
+    font-family: Mulish;
+    padding-top: 14px;
+    padding-bottom: 18px;
+    padding-left: 35px;
+    padding-right: 34px;
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 8px;
+    background: #FF5400;
+}
