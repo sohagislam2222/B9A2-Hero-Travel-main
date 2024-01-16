@@ -247,9 +247,9 @@ ul .home {
 /* second section */
 
 .second-section {
-
+    max-width: 1440px;
     width: 100%;
-    margin-bottom: 0px;
+
 }
 
 .second-section-title {
@@ -258,7 +258,7 @@ ul .home {
     font-size: 2.5rem;
     font-weight: 800;
     text-align: center;
-    margin-top: 6.25rem;
+    margin-top: 100px;
 }
 
 .second-section-description {
@@ -271,62 +271,55 @@ ul .home {
     margin-bottom: 48px;
 }
 
-.maldives {
-    position: relative;
-    font-size: 28px;
-    color: #FFF;
-    bottom: 95vh;
-    left: 30vh;
+/* .maldives{
+   position: relative; 
+   font-size: 28px;
+   color: #FFF;
+   bottom: 95vh;
+   left: 35vh;
 }
-
-.Indonesia {
-    position: relative;
+.Indonesia{
+    position: relative; 
     font-size: 1.75rem;
     color: #FFF;
-    bottom: 118vh;
-    left: 112vh;
+    bottom: 122vh;
+    left:122vh; 
 }
-
-.Srilanka {
-    position: relative;
+.Srilanka{
+    position: relative; 
     font-size: 1.75rem;
     color: #FFF;
     bottom: 60vh;
-    left: 20vh;
+    left: 20vh; 
 }
-
-.North-America {
-    position: relative;
+.North-America{
+    position: relative; 
     font-size: 1.75rem;
     color: #FFF;
-    bottom: 67vh;
-    left: 70vh;
-
+    bottom: 540px;
+    left: 570px;
 }
-
-.Kashmir {
-    position: relative;
+.Kashmir{
+    position: relative; 
     font-size: 1.75rem;
     color: #FFF;
-    bottom: 70vh;
-    left: 125vh;
+    bottom: 570px;
+    left: 1080px;
 }
-
-.Bangladesh {
-    position: relative;
+.Bangladesh{
+    position: relative; 
     font-size: 1.75rem;
     color: #FFF;
-    bottom: 35vh;
-    left: 27vh;
+    bottom: 300px;
+    left: 270px;
 }
-
-.Bandarban {
-    position: relative;
+.Bandarban{
+    position: relative; 
     font-size: 1.75rem;
     color: #FFF;
-    bottom: 40vh;
-    left: 105vh;
-}
+    bottom: 340px;
+    left: 970px;
+} */
 
 
 
@@ -337,6 +330,7 @@ ul .home {
 
 .img1 {
     width: 100%;
+
     max-height: 286px;
 }
 
@@ -377,7 +371,7 @@ ul .home {
 }
 
 .choose-us-container {
-    margin: 0px auto;
+    margin: 100px auto;
 
 }
 
@@ -389,7 +383,6 @@ ul .home {
     font-size: 2.5rem;
     font-weight: 800;
     text-align: center;
-    margin-top: 0px;
 }
 
 .choose-us-para {
@@ -409,6 +402,7 @@ ul .home {
     border-radius: 16px;
     gap: 24px;
     text-align: left;
+    
 }
 
 .choosing-part-left {
@@ -418,9 +412,10 @@ ul .home {
     padding: 32px;
 }
 
-.hotel-icon {
+.hotel-icon{
     margin-top: 32px;
 }
+
 
 .choosing-part-title1 {
     color: #131318;
@@ -455,7 +450,7 @@ ul .home {
 
 }
 
-.location-icon {
+.location-icon{
     margin-top: 32px;
 }
 
@@ -512,6 +507,8 @@ ul .home {
     font-size: 1rem;
     font-weight: 400;
 }
+
+
 
 .deals-discout-section {
     margin: 100px auto;
@@ -1095,11 +1092,13 @@ footer {
     .img-container-2,
     .img-container-3 {
         flex-direction: column;
+        gap: 50px;
 
     }
 
     .choosing-part {
         flex-direction: column;
+        gap: 50px;
     }
 
     .choose-section-bottom {
