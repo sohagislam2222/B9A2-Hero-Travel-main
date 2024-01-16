@@ -416,7 +416,7 @@ ul .home {
     padding: 32px;
 }
 
-.hotel-icon{
+.hotel-icon {
     margin-top: 32px;
 }
 
@@ -437,7 +437,7 @@ ul .home {
     font-size: 1rem;
     margin-top: 24px;
     font-weight: 400;
-    
+
 }
 
 
@@ -453,7 +453,7 @@ ul .home {
 
 }
 
-.location-icon{
+.location-icon {
     margin-top: 32px;
 }
 
@@ -511,6 +511,274 @@ ul .home {
     font-weight: 400;
 }
 
+.deals-discout-section {
+    margin: 100px auto;
+
+
+}
+
+.deals-discout-section-heading {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.deals-discout-section-title {
+    font-family: Mulish;
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.deals-discout-section-para {
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.deals-discout-section-tour1 {
+    margin: 50px auto;
+    border: 2px solid black;
+    width: 100%;
+    height: 500px;
+    border-radius: 16px;
+    background: url(../Images/Group\ 39.png), lightgray 50%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: end;
+    text-align: center;
+}
+.deals-discout-section-tour2 {
+    margin: 50px auto;
+    border: 2px solid black;
+    width: 100%;
+    height: 500px;
+    border-radius: 16px;
+    background: url(../Images/Group\ 40.png), lightgray 50%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+    text-align: center;
+}
+.deals-discout-section-tour3 {
+    margin: 50px auto;
+    border: 2px solid black;
+    width: 100%;
+    height: 500px;
+    border-radius: 16px;
+    background: url(../Images/Group\ 39.png), lightgray 50%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: end;
+    text-align: center;
+}
+
+.deals-discout-section-tour1-content {
+    padding: 50px;
+    margin-top: 55px;
+    margin-bottom: 55px;
+    margin-right: 55px;
+    text-align: left;
+    border: 2px solid red;
+    width: 40.66%;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+}
+
+.deals-discout-section-tour2-content {
+    padding: 50px;
+    margin-top: 55px;
+    margin-bottom: 55px;
+    margin-left: 55px;
+    text-align: left;
+    border: 2px solid red;
+    width: 40.66%;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+}
+
+.deals-discout-section-tour3-content {
+    padding: 50px;
+    margin-top: 55px;
+    margin-bottom: 55px;
+    margin-right: 55px;
+    text-align: left;
+    border: 2px solid red;
+    width: 40.66%;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+}
+.svg{
+    margin-right: 20px;
+}
+.svg-part-1 {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    justify-content: flex-start;
+    margin-bottom: 26px;
+}
+
+.deals-discout-section-tour1-title {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-bottom: 16px;
+}
+
+.deals-discout-section-tour1-para {
+    margin-top: 16px;
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.deals-discout-section-tour1-price {
+    color: #FF5400;
+    font-family: Mulish;
+    font-size: 1.25rem;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+
+
+.deals-discout-section-tour1-btn {
+    color: #FFF;
+    font-family: Mulish;
+    padding-top: 13px;
+    padding-bottom: 14px;
+    padding-left: 24px;
+    padding-right: 25px;
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 8px;
+    border-radius: 8px;
+    background: #FF5400;
+    border: none
+}
+
+.see-all-btn-div{
+display: flex;
+justify-content: center;
+
+}
+
+.see-all-btn{
+    color: #FFF;
+    font-family: Mulish;
+    padding-top: 13px;
+    padding-bottom: 14px;
+    padding-left: 24px;
+    padding-right: 25px;
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 8px;
+    border-radius: 8px;
+    background: #FF5400;
+    border: none
+
+}
+
+
+.perfect-place-section-container{
+    height:424px;
+}
+
+.perfect-place-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+   
+    
+}
+
+.perfect-place-section-left{
+    height: 100%;
+    width: 45%;
+}
+
+.perfect-place-section-right{
+
+width: 55%;
+}
+
+.perfect-place-section-title{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 2.5rem;
+    font-weight: 800;
+    text-align: left;
+    margin-bottom: 1.5rem;
+
+}
+
+.perfect-place-section-para{
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+}
+
+.perfect-place-section-ul{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 1rem;
+    font-weight: 700;
+    padding-left: 30px;
+    margin-bottom: 2rem;
+}
+
+.perfect-place-section-ul li{
+margin-bottom: 1rem;
+
+}
+
+.perfect-place-section-btn{
+    color: #FFF;
+    font-family: Mulish;
+    padding-top: 13px;
+    padding-bottom: 14px;
+    padding-left: 24px;
+    padding-right: 25px;
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 8px;
+    border-radius: 8px;
+    background: #FF5400;
+    border: none
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -542,6 +810,9 @@ ul .home {
         background-position: center;
 
     }
+
+
+    
 
     .banner-title {
         font-size: 1.375rem;
@@ -632,9 +903,98 @@ ul .home {
         flex-direction: column;
     }
 
-    .choose-section-bottom{
+    .choose-section-bottom {
         width: 86%;
         margin: 24px auto;
+    }
+
+
+    .deals-discout-section-tour1 {
+        height: 500px;
+        text-align: center;
+        background-size: auto;
+        background-position: center;
+        justify-content: center;
+        align-items: flex-end;
+        text-align: center;
+    }
+    .deals-discout-section-tour2 {
+        height: 500px;
+        text-align: center;
+        background-size: auto;
+        background-position: center;
+        justify-content: center;
+        align-items: flex-end;
+        text-align: center;
+    }
+    .deals-discout-section-tour3 {
+        height: 500px;
+        text-align: center;
+        background-size: auto;
+        background-position: center;
+        justify-content: center;
+        align-items: flex-end;
+        text-align: center;
+    }
+
+    .deals-discout-section-tour1-content {
+       margin-left: auto;
+       margin-right: auto;
+        height: 297px;
+        padding: 20px;
+        width: 75%;
+        align-items: flex-end;
+        justify-content: center;
+        
+    }
+    .deals-discout-section-tour2-content {
+       margin-left: auto;
+       margin-right: auto;
+        height: 297px;
+        padding: 20px;
+        width: 75%;
+        align-items: flex-end;
+        justify-content: center;
+        
+    }
+    .deals-discout-section-tour3-content {
+       margin-left: auto;
+       margin-right: auto;
+        height: 297px;
+        padding: 20px;
+        width: 75%;
+        align-items: flex-end;
+        justify-content: center;
+        
+    }
+
+
+    .svg{
+        margin-right:50px}
+
+    
+    .svg-part-1 {
+        flex-wrap:wrap;
+        margin-bottom: 10px;
+        gap: 5px;
+    }
+
+    
+
+    .deals-discout-section-tour1-title {
+        font-size:1.25rem ;
+        margin-bottom: 0px;
+    }
+
+    .deals-discout-section-tour1-para {
+        margin-bottom: 12px;
+        font-size:.90;
+        margin-top: 0px;
+    }
+
+    .deals-discout-section-tour1-price {
+        margin-bottom: 12px;
+        font-size:1rem ;
     }
 
 
