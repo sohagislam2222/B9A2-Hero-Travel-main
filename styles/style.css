@@ -244,7 +244,7 @@ height: 500px;
     border-radius: 8px;
     background: #FF5400;
     margin-top: 2.5rem;
-    border: none
+    border: none;
 }
 
 .first-section-img-container{
@@ -476,6 +476,7 @@ background: url(../Images/Rectangle\ 11.png);
     border: 1px solid rgba(251, 181, 99, 0.20);
     background: rgba(251, 181, 99, 0.05);
     padding: 32px;
+    border-radius: 16px;
 }
 
 .hotel-icon {
@@ -1050,27 +1051,7 @@ footer {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* FOR MOBILE SCREEN */
 
 @media screen and (max-width:600px) {
 
@@ -1081,15 +1062,15 @@ footer {
     .nav-content {
         margin-top: 0 auto;
         flex-direction: column;
-        justify-content: flex-end;
-        text-align: left;
-        align-items: flex-start;
+        justify-content: center;
+        text-align: center;
+        align-items:center;
     }
 
     .nav-right ul {
         display: flex;
         justify-content: flex-start;
-        gap: 5px;
+        gap: 8px;
     }
 
     .banner-container {
@@ -1332,8 +1313,9 @@ footer {
 
 
     .badge1 {
-        bottom: 9.6rem;
-        left: 0rem;
+        position: relative;
+        width: 60vh;
+        height: 31vh;
     }
 
     .newslatter-container {
@@ -1379,10 +1361,6 @@ footer {
 		margin-bottom:0px;
 		}
 
-    .footer {
-       
-
-    }
 
     .second-section{
         margin-top: 50px;
@@ -1412,18 +1390,716 @@ footer {
     width: 100%;
     flex-direction: column;
     gap: 50px;
-   
 }
 
- footer{
-    width: 100%;
-    margin: 0px;
- }
+.input-field {
+    color: rgba(19, 19, 24, 0.30);
+    font-family: Mulish;
+    font-size: 1rem;
+    font-weight: 400;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1.25rem;
+    padding-right: 21.6vh;
+    margin-bottom: 2rem;
+    border: none;
+}
+
+.footer-section{
+   width: 100%;
+    height: 309px;
+}
+
+
+
 .footer-container{
-    margin-top: 500px;
+    margin-top: 400px;
+    width: 100%;
+    height: 100%;
 }
 
+.social-icons img {
+    margin-right: 20px;
+}
+
+.line {
+    border-top: 1px solid rgba(19, 19, 24, 0.10);
+    width: 85.65%;
+    margin-bottom: 50px;
+}
+
+.newslatter-section-right img {
+    width: 100%;
+    height: 100%;
+}
+
+.newsletter-title {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 2.5rem;
+    font-weight: 800;
+    text-align: left;
+    margin-bottom: 2rem;
+}
+
+.newslatter-para {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+
+.input-field {
+    color: rgba(19, 19, 24, 0.30);
+    font-family: Mulish;
+    font-size: 1rem;
+    font-weight: 400;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1.25rem;
+    padding-right: 12.6vh;
+    margin-bottom: 2rem;
+    border: none;
+}
+
+.newslatter-btn {
+
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    
+    font-family: Mulish;
+    font-size: 1.25rem;
+    font-weight: 800;
+    padding: .90rem 45.37vh;
+   margin-top: 1rem;
+   border: none;
+}
+
+.badge1 {
+    
+    transform: rotate(-19.628deg);
+    position: relative;
+    bottom: 8rem;
+    left: 15rem;
+}
+
+
+.badge {
+    border: 2px solid #FF5400;
+
+    width: 20.25rem;
+    height: 6rem;
+    border-radius: 16px;
+    background: #FF5400;
+    display: flex;
+    text-align: center;
+}
+
+.save-up-to {
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 1.6rem;
+    font-weight: 800;
+    text-align: center;
+
+}
+
+.travel {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 1.20rem;
+    font-weight: 400;
+
+}
+
+.perfect-place-section-right {
+    margin-top: 30px;
+    width: 100%;
+}
+
+.footer-details {
+   padding: 15px;
+}
+
+.first-section-btn{
+margin-top: 1.5rem;
+border: none;
+
+}
+
+.first-section-img-container{
+    margin-top: 2rem;
+}
+
+
+}
+
+
+
+
+
+
+
+
+/* For Medium screen device */
+
+
+
+@media screen and (min-width:601px) and (max-width:992px) {
+    .header {
+        margin: 20px auto;
+    }
+
+    .nav-content {
+        margin-top: 0 auto;
+        flex-direction: column;
+        justify-content: flex-end;
+        text-align: center;
+        align-items:center;
+    }
+
+
+    .nav-right ul {
+        display: flex;
+        justify-content: flex-start;
+        gap: 85px;
+        margin-top: 25px;
+    }
+
+    .banner-container {
+        height: 483px;
+        text-align: center;
+        background-size: auto;
+        background-position: center;
+		margin-left:auto;
+         margin-right:auto;
+    }
+	
+	.banner{
+		margin-left:auto;
+         margin-right:auto;
+	}
+
+
+
+
+    .banner-title {
+        font-size: 1.375rem;
+        font-weight: 800;
+        margin-top: 32px;
+        margin-bottom: 0px;
+    }
+
+    .banner-description {
+        margin-top: 0px;
+        font-size: .875rem;
+        font-weight: 400;
+        margin-bottom: 32px;
+        
+    }
+
+    .banner-details{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .make-travel {
+        margin: 0px;
+        width: 287px;
+        height: 287px;
+        padding: 0px;
+        flex-direction: column;
+        align-items: flex-start;
+        row-gap: 16px;
+    }
+
+    .make-travel-content {
+        padding: 16px;
+
+    }
+
+    .option {
+        margin-bottom: 16px;
+        width: 255px;
+        height: 52px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding-left: 10px;
+        padding-right: 0px;
+        border-radius: 8px;
+    }
+
+    .option-text {
+        color: rgba(19, 19, 24, 0.50);
+        text-align: left;
+        font-family: Mulish;
+        font-size: 1rem;
+        font-weight: 400;
+        justify-content: left;
+        align-items: center;
+
+
+    }
+
+    .btn {
+        width: 255px;
+        height: 52px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    
+    
+
+
+    .img-section1, .img-section2, .img-section3{
+        flex-direction: column;
+		margin:20px auto;
+		height:100%;
+		
+		
+    }
+
+    div .img-section1-left, div .img-section1-right, div .img-section2-left, div .img-section2-middle, div .img-section2-right, div .img-section3-left, div .img-section3-right {
+        width: 100%;
+		margin:20px auto;
+		height: 300px;
+    }
+	
+	
+
+    .choosing-part {
+        flex-direction: column;
+    }
+
+    .choose-section-bottom {
+        width: 91%;
+        margin: 24px auto;
+    }
+
+
+    .deals-discout-section-tour1 {
+        height: 500px;
+        text-align: center;
+        background-size: auto;
+        background-position: center;
+        justify-content: center;
+        align-items: flex-end;
+        text-align: center;
+    }
+
+    .deals-discout-section-tour2 {
+        height: 500px;
+        text-align: center;
+        background-size: auto;
+        background-position: center;
+        justify-content: center;
+        align-items: flex-end;
+        text-align: center;
+    }
+
+    .deals-discout-section-tour3 {
+        height: 500px;
+        text-align: center;
+        background-size: auto;
+        background-position: center;
+        justify-content: center;
+        align-items: flex-end;
+        text-align: center;
+    }
+
+    .deals-discout-section-tour1-content {
+        margin-left: auto;
+        margin-right: auto;
+        height: 297px;
+        padding: 20px;
+        width: 75%;
+        align-items: flex-end;
+        justify-content: center;
+
+    }
+
+    .deals-discout-section-tour2-content {
+        margin-left: auto;
+        margin-right: auto;
+        height: 297px;
+        padding: 20px;
+        width: 75%;
+        align-items: flex-end;
+        justify-content: center;
+
+    }
+
+    .deals-discout-section-tour3-content {
+        margin-left: auto;
+        margin-right: auto;
+        height: 297px;
+        padding: 20px;
+        width: 75%;
+        align-items: flex-end;
+        justify-content: center;
+
+    }
+
+
+    .svg {
+        margin-right: 50px
+    }
+
+
+    .svg-part-1 {
+        flex-wrap: wrap;
+        margin-bottom: 10px;
+        gap: 5px;
+    }
+
+
+
+    .deals-discout-section-tour1-title {
+        font-size: 1.25rem;
+        margin-bottom: 0px;
+    }
+
+    .deals-discout-section-tour1-para {
+        margin-bottom: 12px;
+        font-size: .90;
+        margin-top: 0px;
+    }
+
+    .deals-discout-section-tour1-price {
+        margin-bottom: 12px;
+        font-size: 1rem;
+    }
+
+    .perfect-place-section {
+        flex-direction: column;
+        gap: 50px;
+        margin-top: 50px;
+    }
+
+    .perfect-place-section-left {
+        width: 100%;
+    }
+
+    .perfect-place-section-right {
+        width: 100%;
+        height: 100%;
+        margin-top: 50px;
+    }
+
+
+
+
+    .newslatter-container {
+
+        flex-direction: column-reverse;
+        gap: 50px;
+    }
+
+    .newslatter-section-left {
+        width: 100%;
+        height: 100%;
+    }
+
+    .newslatter-section-right {
+        width: 100%;
+        height: 100%;
+    }
+
+
+
+
+    .badge1 {
+        position: relative;
+        width: 60vh;
+        height: 31vh;
+    }
+
+    .newslatter-container {
+
+       
+    }
+
+    /* .badge {
+        border: 2px solid #FF5400;
+        width: 1rem;
+        height: 4.5rem;
+        border-radius: 16px;
+        background: #FF5400;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    } */
+
+    .input-field {
+        color: rgba(19, 19, 24, 0.30);
+        font-family: Mulish;
+        font-size: 1rem;
+        font-weight: 400;
+        border-radius: 8px;
+        background: rgba(19, 19, 24, 0.05);
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        padding-left: 1.25rem;
+        padding-right: 8.6rem;
+        margin-bottom: 1rem;
+        width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+
+    }
+	
+	body{
+		margin:0px auto;
+		
+	}
+	main{
+		margin-bottom:0px;
+		}
+
+
+    .second-section{
+        margin-top: 50px;
+        margin-bottom: 0px;
+    }
+
+
+
+    .first-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        
+    }
+.first-section-btn{
+    margin-bottom: 30px;
+}
+
+.img-section2-right{
+    background-position: center;
+}
+
+.newslatter-container {
+    margin-top: 600px;
    
+    width: 100%;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.input-field {
+    color: rgba(19, 19, 24, 0.30);
+    font-family: Mulish;
+    font-size: 1rem;
+    font-weight: 400;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1.25rem;
+    padding-right: 21.6vh;
+    margin-bottom: 2rem;
+    border: none;
+}
+
+.footer-section{
+   width: 100%;
+    height: 309px;
 }
 
 
+
+.footer-container{
+    margin-top: 400px;
+    width: 100%;
+    height: 100%;
+}
+
+.social-icons img {
+    margin-right: 20px;
+}
+
+.line {
+    border-top: 1px solid rgba(19, 19, 24, 0.10);
+    width: 85.65%;
+    margin-bottom: 50px;
+}
+
+.newslatter-section-right img {
+    width: 100%;
+    height: 100%;
+}
+
+.newsletter-title {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 2.5rem;
+    font-weight: 800;
+    text-align: left;
+    margin-bottom: 2rem;
+}
+
+.newslatter-para {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+
+.perfect-place-section-title{
+    text-align: center;
+}
+
+.input-field {
+    color: rgba(19, 19, 24, 0.30);
+    font-family: Mulish;
+    font-size: 1rem;
+    font-weight: 400;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1.25rem;
+    padding-right: 12.6vh;
+    margin-bottom: 2rem;
+    border: none;
+}
+
+.newslatter-btn {
+
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    
+    font-family: Mulish;
+    font-size: 1.25rem;
+    font-weight: 800;
+    padding: .90rem 45.37vh;
+   margin-top: 1rem;
+   border: none;
+}
+
+.badge1 {
+    
+    transform: rotate(-19.628deg);
+    position: relative;
+    bottom: 8rem;
+    left: 31rem;
+}
+
+
+.badge {
+    border: 2px solid #FF5400;
+
+    width: 20.25rem;
+    height: 6rem;
+    border-radius: 16px;
+    background: #FF5400;
+    display: flex;
+    text-align: center;
+}
+
+.save-up-to {
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 1.6rem;
+    font-weight: 800;
+    text-align: center;
+
+}
+
+.travel {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 1.20rem;
+    font-weight: 400;
+
+}
+
+.perfect-place-section-right {
+    margin-top: 30px;
+    width: 100%;
+}
+
+.footer-details {
+   padding: 15px;
+}
+
+.first-section-btn{
+margin-top: 1.5rem;
+border: none;
+
+}
+
+.first-section-img-container{
+    margin-top: 2rem;
+}
+
+.perfect-place-section-para {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.perfect-place-section-ul {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 1rem;
+    font-weight: 700;
+    padding-left: 30px;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.perfect-place-section-ul li {
+    margin-bottom: 1.5rem;
+    text-align: center;
+    list-style: none;
+}
+
+.perfect-place-section-btn {
+    color: #FFF;
+    font-family: Mulish;
+    padding-top: 13px;
+    padding-bottom: 14px;
+    padding-left: 24px;
+    padding-right: 25px;
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 8px;
+    border-radius: 8px;
+    background: #FF5400;
+    border: none;
+    margin-top: 2.5rem;  
+}
+
+.perfect-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+}
